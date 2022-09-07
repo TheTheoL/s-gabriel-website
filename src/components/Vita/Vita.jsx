@@ -4,7 +4,7 @@ import './vita.scss';
 export const Vita = () => {
     return (
         <div>
-            <div className='section-title'>
+            <div className='section-title' id='vita-section'>
                 <h1>CURRICULUM VITAE</h1>
             </div>
 

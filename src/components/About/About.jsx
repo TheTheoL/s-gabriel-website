@@ -4,7 +4,8 @@ import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri';
 
 export const About = () => {
     return (
-        <div className='about-section'>
+        <div className='about-section' id='about'>
+
             <div className='section-title'>
                 <h1>ABOUT</h1>
             </div>

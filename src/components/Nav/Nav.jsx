@@ -1,12 +1,14 @@
-import React from 'react';
+
 import './nav.scss';
 import logo from '../../img/owlblack.png';
 
 export const Nav = () => {
     return (
-        <div className='navbar'>
+        <div className='navbar' id='navbar'>
 
-            <h1 className='name'>Susan Krantz Gabriel</h1>
+            <button className='name' onClick={() => {
+                window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+            }}>Susan Krantz Gabriel</button>
 
 
             <div className='logo'>
@@ -16,7 +18,7 @@ export const Nav = () => {
 
 
             <ul className='links'>
-                <li><a href="#top">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#vita-section">Vita</a></li>
                 <li><a href="#publications">Publications</a></li>
             </ul>

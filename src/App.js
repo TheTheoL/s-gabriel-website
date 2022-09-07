@@ -1,12 +1,14 @@
 //imports
 import { Nav } from "./components/Nav/Nav";
-import { Main } from './pages/Main';
+import { About } from './components/About/About';
+import { Vita } from './components/Vita/Vita';
 
 function App() {
   return (
     <div className="App">
-      <Nav sticky="top" />
-      <Main />
+      <Nav />
+      <About />
+      <Vita />
     </div>
   );
 }

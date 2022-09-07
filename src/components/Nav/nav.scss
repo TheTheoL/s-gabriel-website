@@ -18,7 +18,10 @@
     opacity: 0.75;
     font-family: $nav-font;
     
-    
+        button {
+            border: none;
+            background-color: white;
+        }
 
         .name {
             font-family: $nav-font !important;
