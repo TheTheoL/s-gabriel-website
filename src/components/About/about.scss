@@ -1,0 +1,39 @@
+.about-section {
+    justify-content: center;
+    
+    padding: 1rem 0;
+    width: auto;
+    height: auto;
+    background: rgb(112, 112, 112);
+
+    .section-title {
+        color: white !important;
+    }
+
+    .about {
+        padding: 2rem;
+        text-align: center;
+        
+    }
+
+    .about p,
+    .quote p {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+}
+
+.quote {
+    padding: 2rem;
+    text-align: center;
+    
+    p{
+        
+    }
+
+.quote-author {
+    font-weight: bold;
+}
+    
+}
